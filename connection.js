@@ -213,5 +213,6 @@
   window.connectDialog = connectionsDialog;
   document.querySelector("#connectBtn").onclick = connectionsDialog;
   document.querySelector("#accountsNav").onclick = connectionsDialog;
+  document.querySelector("#connectTopBtn")?.addEventListener("click", connectionsDialog);
 })();
 
